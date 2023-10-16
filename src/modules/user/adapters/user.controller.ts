@@ -1,5 +1,5 @@
 import { Request, Response,Router } from "express";
-import { UserStorageGateway } from "./user.storage.gateway";
+import { UserStorageGateway } from "../adapters/user.storage.gateway";
 import { GetAllUsersInteractor } from "../use-cases/get-all-users.interatot";
 
 export class UserController {

@@ -4,10 +4,9 @@ export type TPerson = Entity<number> & {
     name : string;
     surname : string;
     lastname ? : string;
-    birthday ? : string;
+    birthdate ? : string;
     createdAt ? : string;
     rfc ? : string;
     curp ? : string;
-    status ? : TStatus;
     sex : string;
 }

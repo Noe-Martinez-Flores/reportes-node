@@ -21,7 +21,7 @@ export type TStatus = Entity<number> & {
     description ? : string;
 }
 
-export enum Error {
+export enum Errors {
     MISSING_FIELDS = 'MissingFields',
     INVALID_FIELDS = 'InvalidFields',
     NOT_FOUND = 'NotFound',
